@@ -6,7 +6,7 @@ const Container = styled.div`
 `;
 
 const App = () => (
-  <Container>Go Expert</Container>
+  <Container>My First Deployment</Container>
 );
 
 export default App;
