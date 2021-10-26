@@ -1,12 +1,10 @@
 import React from "react";
-import styled from "styled-components";
-
-const Container = styled.div`
-  color: red;
-`;
+import Header from "./Header";
 
 const App = () => (
-  <Container>My First Deployment</Container>
+  <div>
+    <Header />
+  </div>
 );
 
 export default App;
