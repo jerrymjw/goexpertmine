@@ -31,3 +31,9 @@ Development, Staging, Production
 
 基于master分支多开发分支，独立且不影响master分支，通过回归master分支完成功能交付
 master分支理论上是交付分支，所有产品目前所需要的功能都在master分支上，且master分支上可以保证正常工作的
+
+# CICD
+
+## Staging Env https://elastic-murdock-6c17ae.netlify.app/
+
+## 持续部署
