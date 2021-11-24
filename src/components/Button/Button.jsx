@@ -1,17 +1,17 @@
-import styled, { css } from "styled-components";
+import styled, { css } from 'styled-components';
 
 const Button = styled.button`
   border: 1px solid transparent;
   outline: 0;
   background: transparent;
-  font-size: 18px;
+  font-size: 1rem;
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 5px;
   letter-spacing: 1px;
 
   ${({ variant }) => {
-    switch(variant) {
+    switch (variant) {
       case 'primary':
         return css`
             color: white;
@@ -36,7 +36,7 @@ const Button = styled.button`
             }
         `;
       default:
-        return``;
+        return '';
     }
   }}
 `;
